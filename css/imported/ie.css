@@ -1,0 +1,143 @@
+body {text-align:center;}
+#wrapper {text-align:left; margin: 1px auto 0;}
+* html .column, * html div.span-1, * html div.span-2, * html div.span-3, * html div.span-4, * html div.span-5, * html div.span-6, * html div.span-7, * html div.span-8, * html div.span-9, * html div.span-10, * html div.span-11, * html div.span-12, * html div.span-13, * html div.span-14, * html div.span-15, * html div.span-16, * html div.span-17, * html div.span-18, * html div.span-19, * html div.span-20, * html div.span-21, * html div.span-22, * html div.span-23, * html div.span-24 {overflow-x:hidden;}
+* html legend {margin:-18px -8px 16px 0;padding:0;}
+ol {margin-left:2em;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+html>body p code {*white-space:normal;}
+hr {margin:-8px auto 11px;}
+.clearfix, .container {display:inline-block;}
+* html .clearfix, * html .container {height:1%;}
+fieldset {padding-top:0;}
+
+/* all pages */
+
+body{
+	margin: 0px auto;
+	*margin: 0px auto;
+}
+
+/* home page */
+
+#feed h4{
+	margin-top: 0px;
+}
+
+img.left{
+	*width: 305px;
+	*float: left;
+}
+
+#info{
+	*clear: both;
+}
+
+#gallery{
+	float:left;
+	margin-right: 10px;
+	border: 1px solid #005eb0;
+	background: #ccffff;
+	*width: 500px;
+}
+
+#buttons{
+	width: 500px;
+	height: 22px;
+	*width: 800px;
+	*display: inline-block;
+}
+
+.button{
+	width: 40px;
+	height: 20px;
+	text-align:center;
+	font-weight: bold;
+	color: #fff;
+	font-weight: bold;
+	width: 75px;
+	padding-top:2px;
+	*display:inline;
+}
+
+.forward, .back{
+	display: inline-block;
+	font-size: 1.3em;
+}
+
+.back{
+	position: relative;
+	left: 20px;
+	*display:none;
+}
+
+.forward{
+	position: relative;
+	left: 360px;
+	*display: none;
+}
+
+.forward a, .forward a:visited, .back a, .back a:visited{
+	color:#fff;
+	font-weight: bold;
+	text-decoration:none;
+	background: #005eb0;
+	padding: 4px 20px;
+}
+
+.forward a:hover, .back a:hover{
+	cursor: pointer;
+	background: #8f549f;
+	
+}
+
+#display{
+	width: 210px;
+	height: 280px;
+	background: transparent;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#placeholder{
+	display: block;
+	margin: 30px auto 30px auto;
+	padding: 0px;
+	background: #FFF;
+	border: 3px solid #fff;
+	*width: 326px;
+	*text-align: center;
+}
+
+.invisible{
+	visibility: hidden;
+}
+
+#navigator{
+	background: transparent;
+	width: 490px;
+	height: 70px;
+	overflow: hidden;
+	margin: 0px 0 20px 0;
+	*overflow: auto;
+	*height: 80px;
+}
+
+#thumbnails{
+	background: transparent;
+	width: 1400px;
+
+}
+
+#thumbnails a{
+	float:left;
+	width: auto;
+	height: 51px;
+	border: 2px solid #fff;
+	margin: 6px;
+	background: #ccc;
+}
+
+#thumbnails a:hover{
+	border-color: #005eb0;
+}

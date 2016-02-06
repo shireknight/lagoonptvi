@@ -1,0 +1,172 @@
+/* CSS Document */
+* {
+}
+
+#main {
+	margin: 0 auto;
+	width: 800px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#branding{
+	background:  url(../../img/layout/header.gif) 0 0 no-repeat;
+	width: 948px;
+	height: 181px;
+}
+
+#navigation {
+	width: 800px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: black;
+	word-spacing: 90px;
+	text-align: center;
+}
+
+#navigation a {
+	color: white;
+	text-decoration: none;
+	font-family: Times New Roman, Georgia;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+#navigation a:hover {
+	color: #CC33FF;
+	border-bottom: 1px solid #00FFFF;
+}
+
+#container {
+	min-height: 270px;
+}
+
+#content .left {
+	float: left;
+	width: 90px;
+	background-color: #CC99CC;
+	height: 400px;
+	background-repeat: repeat;
+}
+
+#content .center {
+	width: 350px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#content .right {
+	width: 300px;
+	font-family: Arial;
+	float: left;
+	padding: 5px;
+}
+
+/* Gallery Page Styles */
+
+#gallery img {
+	border: 1px solid black;
+}
+
+#gallery .left {
+	float: left;
+	width: 90px;
+	background-color: #CC99CC;
+	height: 400px;
+	background-repeat: repeat;
+}
+
+#gallery .center {
+	width: 410px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#gallery .right {
+	width: 270px;
+	float: right;
+	_float: left; /* IE hack */
+	padding-top: 15px;
+
+}
+
+#gallery .info {
+	width: 650px;
+	float: left;
+	padding-top:5px;
+	padding-left: 15px;
+	font-family: Arial;
+}
+
+
+
+/* Pricing Page Styles */
+
+#pricing .left {
+	float: left;
+	width: 90px;
+	background-color: #CC99CC;
+	height: 400px;
+	background-repeat: repeat;
+}
+
+#pricing .right {
+	padding-top: 15px;
+	width: 620px;
+	float: left;
+	font-family: Arial;
+}
+
+#pricing .right p {
+	margin-top: 0px;
+}
+
+p {
+	font-size: 12px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+
+table {
+	background-color: white;
+	font: 10px Arial;
+	letter-spacing:.1em;
+}
+
+.gutter {
+	margin-top: 10px;
+	position: absolute;
+	top: 525px;
+	z-index: 100;
+	clear: both;
+	width: 800px;
+	height: 5px;
+	border-top: 2px solid aqua;
+	border-bottom: 2px solid aqua;
+	margin-bottom: 10px;
+}
+
+.lav {
+	background-color: #CC99CC;
+}
+
+#footer {
+	clear: both;
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footer a {
+	color: white;
+	text-decoration: underline;
+}

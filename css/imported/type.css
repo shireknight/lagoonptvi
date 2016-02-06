@@ -1,0 +1,119 @@
+blockquote:before, blockquote:after, q:before, q:after {
+	content:"""";
+}
+
+blockquote, q {
+	quotes:"" "";
+}
+
+blockquote{
+	font-size: 1.2em;
+	margin: 10px;
+	font-style: italic;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border: 1px solid #ccc;
+	padding: 1em;
+	line-height: 1.6;
+}
+
+a img {
+	border:none;
+	}
+
+h1{
+	font-size:3em;
+	font-family: Georgia, "Times New Roman", Times;
+	font-style: italic;
+	border-bottom: 1px dotted #ccc;
+	color: #000;
+	padding-left: 1em;
+	background: url('../../img/layout/h1.gif') 0 0 no-repeat;
+}
+
+h2{
+	font-size:2em;
+}
+
+h3{
+	font-size:1.5em;
+}
+
+h4{
+	font-size: 1.25em;
+}
+
+h5{
+	font-size: 1em;
+}
+
+h6{
+	font-size: .8em;
+}
+
+p{
+	font-size: 1.2em;
+	line-height:1.4;
+	padding: 10px 0;
+}
+
+p img.alignleft {
+	float:left;
+	margin:0em 1.5em 1.5em 0;
+	padding:0;
+}
+
+p img.alignright {
+	float:right;
+	margin:1.5em 0 1.5em 1.5em;
+}
+
+fieldset{
+	margin: 12px 4px;
+	padding: 4px;
+	border: 1px solid #005eb0;
+	background: #ccffff;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px
+}
+
+label{
+	display: inline-block;
+	width: 100px;
+	font-family: Georgia, "Times New Roman", Times;
+	font-size: 1.3em;
+	font-weight: bold;
+	vertical-align: top;
+	padding-left: 8px;
+}
+
+input, textarea{
+	border:1px solid #005eb0;
+}
+
+textarea{
+	font-family: Arial;
+	font-size: 1.2em;
+}
+
+input:focus, textarea:focus{
+	border:1px solid #8f549f;
+}
+
+input.submit{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 0px 8px;
+	cursor: pointer;
+	font-family: Georgia, "Times New Roman", Times;
+	font-weight: bold;
+	margin-left: 280px;
+}
+
+input.submit:hover{
+	background: #ccffff;
+}
+
+.center{
+	text-align: center;
+}

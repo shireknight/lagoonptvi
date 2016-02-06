@@ -1,0 +1,47 @@
+table#rates{
+	border-collapse:separate;
+	border-spacing:0;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.2em;
+	width: 630px;
+	height: 220px;
+	background: #ccffff;
+	text-align: center;
+	empty-cells: hide;
+	float: right;
+	border: 1px solid #005eb0;
+	overflow: hidden;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+}
+
+td{
+	padding: 2px 4px;
+}
+
+td:first-child{
+	width: 100px;
+}
+
+tr:nth-child(even) { 
+	background-color:#fff; 
+}
+
+td.seasons{
+	border-bottom: 4px solid #fff;
+	color: #005eb0;
+	border-collapse: collapse;
+	font-family: Georgia, "Times New Roman", Times;
+	font-style: italic;
+	font-size: 1.3em;
+	padding: 0px;
+}
+
+td.rates{
+	font-family: Georgia, "Times New Roman", Times;
+	font-style: italic;
+	border-bottom: 4px solid #fff;
+	height: 32px;
+	color: #8f549f;
+	font-size: 1.2em;
+}
